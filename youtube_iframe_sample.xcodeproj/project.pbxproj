@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBC530561EB1C8EC003DFB6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC530551EB1C8EC003DFB6B /* AppDelegate.swift */; };
+		DBC530581EB1C8EC003DFB6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC530571EB1C8EC003DFB6B /* ViewController.swift */; };
+		DBC5305B1EB1C8EC003DFB6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC530591EB1C8EC003DFB6B /* Main.storyboard */; };
+		DBC5305D1EB1C8EC003DFB6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC5305C1EB1C8EC003DFB6B /* Assets.xcassets */; };
+		DBC530601EB1C8EC003DFB6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC5305E1EB1C8EC003DFB6B /* LaunchScreen.storyboard */; };
+		DBC5306B1EB1C8ED003DFB6B /* youtube_iframe_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5306A1EB1C8ED003DFB6B /* youtube_iframe_sampleTests.swift */; };
+		DBC530761EB1C8ED003DFB6B /* youtube_iframe_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC530751EB1C8ED003DFB6B /* youtube_iframe_sampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBC530671EB1C8ED003DFB6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC5304A1EB1C8EC003DFB6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC530511EB1C8EC003DFB6B;
+			remoteInfo = youtube_iframe_sample;
+		};
+		DBC530721EB1C8ED003DFB6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC5304A1EB1C8EC003DFB6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC530511EB1C8EC003DFB6B;
+			remoteInfo = youtube_iframe_sample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBC530521EB1C8EC003DFB6B /* youtube_iframe_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youtube_iframe_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC530551EB1C8EC003DFB6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBC530571EB1C8EC003DFB6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBC5305A1EB1C8EC003DFB6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBC5305C1EB1C8EC003DFB6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBC5305F1EB1C8EC003DFB6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBC530611EB1C8EC003DFB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC530661EB1C8ED003DFB6B /* youtube_iframe_sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = youtube_iframe_sampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC5306A1EB1C8ED003DFB6B /* youtube_iframe_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtube_iframe_sampleTests.swift; sourceTree = "<group>"; };
+		DBC5306C1EB1C8ED003DFB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC530711EB1C8ED003DFB6B /* youtube_iframe_sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = youtube_iframe_sampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC530751EB1C8ED003DFB6B /* youtube_iframe_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtube_iframe_sampleUITests.swift; sourceTree = "<group>"; };
+		DBC530771EB1C8ED003DFB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC5304F1EB1C8EC003DFB6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC530631EB1C8ED003DFB6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5306E1EB1C8ED003DFB6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBC530491EB1C8EC003DFB6B = {
+			isa = PBXGroup;
+			children = (
+				DBC530541EB1C8EC003DFB6B /* youtube_iframe_sample */,
+				DBC530691EB1C8ED003DFB6B /* youtube_iframe_sampleTests */,
+				DBC530741EB1C8ED003DFB6B /* youtube_iframe_sampleUITests */,
+				DBC530531EB1C8EC003DFB6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC530531EB1C8EC003DFB6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC530521EB1C8EC003DFB6B /* youtube_iframe_sample.app */,
+				DBC530661EB1C8ED003DFB6B /* youtube_iframe_sampleTests.xctest */,
+				DBC530711EB1C8ED003DFB6B /* youtube_iframe_sampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC530541EB1C8EC003DFB6B /* youtube_iframe_sample */ = {
+			isa = PBXGroup;
+			children = (
+				DBC530551EB1C8EC003DFB6B /* AppDelegate.swift */,
+				DBC530571EB1C8EC003DFB6B /* ViewController.swift */,
+				DBC530591EB1C8EC003DFB6B /* Main.storyboard */,
+				DBC5305C1EB1C8EC003DFB6B /* Assets.xcassets */,
+				DBC5305E1EB1C8EC003DFB6B /* LaunchScreen.storyboard */,
+				DBC530611EB1C8EC003DFB6B /* Info.plist */,
+			);
+			path = youtube_iframe_sample;
+			sourceTree = "<group>";
+		};
+		DBC530691EB1C8ED003DFB6B /* youtube_iframe_sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC5306A1EB1C8ED003DFB6B /* youtube_iframe_sampleTests.swift */,
+				DBC5306C1EB1C8ED003DFB6B /* Info.plist */,
+			);
+			path = youtube_iframe_sampleTests;
+			sourceTree = "<group>";
+		};
+		DBC530741EB1C8ED003DFB6B /* youtube_iframe_sampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC530751EB1C8ED003DFB6B /* youtube_iframe_sampleUITests.swift */,
+				DBC530771EB1C8ED003DFB6B /* Info.plist */,
+			);
+			path = youtube_iframe_sampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC530511EB1C8EC003DFB6B /* youtube_iframe_sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC5307A1EB1C8ED003DFB6B /* Build configuration list for PBXNativeTarget "youtube_iframe_sample" */;
+			buildPhases = (
+				DBC5304E1EB1C8EC003DFB6B /* Sources */,
+				DBC5304F1EB1C8EC003DFB6B /* Frameworks */,
+				DBC530501EB1C8EC003DFB6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = youtube_iframe_sample;
+			productName = youtube_iframe_sample;
+			productReference = DBC530521EB1C8EC003DFB6B /* youtube_iframe_sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBC530651EB1C8ED003DFB6B /* youtube_iframe_sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC5307D1EB1C8ED003DFB6B /* Build configuration list for PBXNativeTarget "youtube_iframe_sampleTests" */;
+			buildPhases = (
+				DBC530621EB1C8ED003DFB6B /* Sources */,
+				DBC530631EB1C8ED003DFB6B /* Frameworks */,
+				DBC530641EB1C8ED003DFB6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC530681EB1C8ED003DFB6B /* PBXTargetDependency */,
+			);
+			name = youtube_iframe_sampleTests;
+			productName = youtube_iframe_sampleTests;
+			productReference = DBC530661EB1C8ED003DFB6B /* youtube_iframe_sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBC530701EB1C8ED003DFB6B /* youtube_iframe_sampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC530801EB1C8ED003DFB6B /* Build configuration list for PBXNativeTarget "youtube_iframe_sampleUITests" */;
+			buildPhases = (
+				DBC5306D1EB1C8ED003DFB6B /* Sources */,
+				DBC5306E1EB1C8ED003DFB6B /* Frameworks */,
+				DBC5306F1EB1C8ED003DFB6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC530731EB1C8ED003DFB6B /* PBXTargetDependency */,
+			);
+			name = youtube_iframe_sampleUITests;
+			productName = youtube_iframe_sampleUITests;
+			productReference = DBC530711EB1C8ED003DFB6B /* youtube_iframe_sampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC5304A1EB1C8EC003DFB6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = masudayuichi;
+				TargetAttributes = {
+					DBC530511EB1C8EC003DFB6B = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					DBC530651EB1C8ED003DFB6B = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBC530511EB1C8EC003DFB6B;
+					};
+					DBC530701EB1C8ED003DFB6B = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBC530511EB1C8EC003DFB6B;
+					};
+				};
+			};
+			buildConfigurationList = DBC5304D1EB1C8EC003DFB6B /* Build configuration list for PBXProject "youtube_iframe_sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC530491EB1C8EC003DFB6B;
+			productRefGroup = DBC530531EB1C8EC003DFB6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC530511EB1C8EC003DFB6B /* youtube_iframe_sample */,
+				DBC530651EB1C8ED003DFB6B /* youtube_iframe_sampleTests */,
+				DBC530701EB1C8ED003DFB6B /* youtube_iframe_sampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC530501EB1C8EC003DFB6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC530601EB1C8EC003DFB6B /* LaunchScreen.storyboard in Resources */,
+				DBC5305D1EB1C8EC003DFB6B /* Assets.xcassets in Resources */,
+				DBC5305B1EB1C8EC003DFB6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC530641EB1C8ED003DFB6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5306F1EB1C8ED003DFB6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC5304E1EB1C8EC003DFB6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC530581EB1C8EC003DFB6B /* ViewController.swift in Sources */,
+				DBC530561EB1C8EC003DFB6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC530621EB1C8ED003DFB6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC5306B1EB1C8ED003DFB6B /* youtube_iframe_sampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5306D1EB1C8ED003DFB6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC530761EB1C8ED003DFB6B /* youtube_iframe_sampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBC530681EB1C8ED003DFB6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC530511EB1C8EC003DFB6B /* youtube_iframe_sample */;
+			targetProxy = DBC530671EB1C8ED003DFB6B /* PBXContainerItemProxy */;
+		};
+		DBC530731EB1C8ED003DFB6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC530511EB1C8EC003DFB6B /* youtube_iframe_sample */;
+			targetProxy = DBC530721EB1C8ED003DFB6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBC530591EB1C8EC003DFB6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC5305A1EB1C8EC003DFB6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBC5305E1EB1C8EC003DFB6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC5305F1EB1C8EC003DFB6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBC530781EB1C8ED003DFB6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBC530791EB1C8ED003DFB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC5307B1EB1C8ED003DFB6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = youtube_iframe_sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "masuda.youtube-iframe-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DBC5307C1EB1C8ED003DFB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = youtube_iframe_sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "masuda.youtube-iframe-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DBC5307E1EB1C8ED003DFB6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = youtube_iframe_sampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "masuda.youtube-iframe-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/youtube_iframe_sample.app/youtube_iframe_sample";
+			};
+			name = Debug;
+		};
+		DBC5307F1EB1C8ED003DFB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = youtube_iframe_sampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "masuda.youtube-iframe-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/youtube_iframe_sample.app/youtube_iframe_sample";
+			};
+			name = Release;
+		};
+		DBC530811EB1C8ED003DFB6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = youtube_iframe_sampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "masuda.youtube-iframe-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = youtube_iframe_sample;
+			};
+			name = Debug;
+		};
+		DBC530821EB1C8ED003DFB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = youtube_iframe_sampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "masuda.youtube-iframe-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = youtube_iframe_sample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC5304D1EB1C8EC003DFB6B /* Build configuration list for PBXProject "youtube_iframe_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC530781EB1C8ED003DFB6B /* Debug */,
+				DBC530791EB1C8ED003DFB6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC5307A1EB1C8ED003DFB6B /* Build configuration list for PBXNativeTarget "youtube_iframe_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC5307B1EB1C8ED003DFB6B /* Debug */,
+				DBC5307C1EB1C8ED003DFB6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBC5307D1EB1C8ED003DFB6B /* Build configuration list for PBXNativeTarget "youtube_iframe_sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC5307E1EB1C8ED003DFB6B /* Debug */,
+				DBC5307F1EB1C8ED003DFB6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBC530801EB1C8ED003DFB6B /* Build configuration list for PBXNativeTarget "youtube_iframe_sampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC530811EB1C8ED003DFB6B /* Debug */,
+				DBC530821EB1C8ED003DFB6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBC5304A1EB1C8EC003DFB6B /* Project object */;
+}
