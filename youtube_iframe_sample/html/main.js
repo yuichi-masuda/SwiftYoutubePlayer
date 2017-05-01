@@ -55,8 +55,8 @@
           done = true;
         }
       }
-      function stopVideo() {
-        player.stopVideo();
+      function pauseVideo() {
+        player.pauseVideo();
       }
 
       document.addEventListener("DOMContentLoaded", function(){
@@ -87,6 +87,23 @@
         var seekTo_time = getCurrentTime - 5;
         player.seekTo(seekTo_time);
     }
+
+    // function slowSpeed(){
+    //   player.setPlaybackRate(0.5);
+    //   player.playVideo();
+    // }
+
+    // function normalSpeed(){
+    //   player.setPlaybackRate(1);
+    //   player.playVideo();
+    // }
+
+    function playVideo() {
+      player.playVideo();
+    }
+     function onPlayerPlaybackRateChange(event) {
+       console.log("change");
+     }
 
     document.addEventListener("DOMContentLoaded", function(){
       var clickElement = document.getElementById("back");

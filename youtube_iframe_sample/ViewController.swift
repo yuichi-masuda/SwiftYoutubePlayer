@@ -13,12 +13,31 @@ class ViewController: UIViewController, UIWebViewDelegate {
     @IBAction func reload(_ sender: Any) {
         self.main_webview.reload()
     }
+    
+    @IBOutlet weak var play_and_stop_button: UIButton!
+    @IBOutlet weak var video_speed_button: UIButton!
+    @IBAction func play_and_stop_button(_ sender: Any) {
+        if play_status == 0 {
+            main_webview.stringByEvaluatingJavaScript(from: "playVideo()")
+            play_status = 1
+            play_and_stop_button.setTitle("停止", for: .normal)
+        } else {
+            main_webview.stringByEvaluatingJavaScript(from: "pauseVideo()")
+            play_status = 0
+            play_and_stop_button.setTitle("再生", for: .normal)
+        }
+        
+    }
+    
     @IBOutlet weak var main_webview: UIWebView!
     var view_width: Float = 0.0
     var view_height: Float = 0.0
     var id: String = "\"KKgTyHr3a58\""
     var request_timer: Timer!
     var request : URLRequest?
+    var play_status = 0
+    var speed_status = 0
+    
     let youtube_request_url: String = "https://www.youtube.com/embed/"
     @IBAction func skip_button(_ sender: Any) {
         main_webview.stringByEvaluatingJavaScript(from: "Skip();")
