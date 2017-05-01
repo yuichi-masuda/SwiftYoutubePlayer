@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB1CCDDB1EB221A600E253CA /* html in Resources */ = {isa = PBXBuildFile; fileRef = DB1CCDDA1EB221A600E253CA /* html */; };
+		DB1CCDDD1EB4B3A400E253CA /* youtube_sample.html in Resources */ = {isa = PBXBuildFile; fileRef = DB1CCDDC1EB4B3A400E253CA /* youtube_sample.html */; };
 		DBC530561EB1C8EC003DFB6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC530551EB1C8EC003DFB6B /* AppDelegate.swift */; };
 		DBC530581EB1C8EC003DFB6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC530571EB1C8EC003DFB6B /* ViewController.swift */; };
 		DBC5305B1EB1C8EC003DFB6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC530591EB1C8EC003DFB6B /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB1CCDDA1EB221A600E253CA /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
+		DB1CCDDC1EB4B3A400E253CA /* youtube_sample.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = youtube_sample.html; path = html/youtube_sample.html; sourceTree = "<group>"; };
 		DBC530521EB1C8EC003DFB6B /* youtube_iframe_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youtube_iframe_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC530551EB1C8EC003DFB6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBC530571EB1C8EC003DFB6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,7 +103,9 @@
 			children = (
 				DBC530551EB1C8EC003DFB6B /* AppDelegate.swift */,
 				DBC530571EB1C8EC003DFB6B /* ViewController.swift */,
+				DB1CCDDC1EB4B3A400E253CA /* youtube_sample.html */,
 				DBC530591EB1C8EC003DFB6B /* Main.storyboard */,
+				DB1CCDDA1EB221A600E253CA /* html */,
 				DBC5305C1EB1C8EC003DFB6B /* Assets.xcassets */,
 				DBC5305E1EB1C8EC003DFB6B /* LaunchScreen.storyboard */,
 				DBC530611EB1C8EC003DFB6B /* Info.plist */,
@@ -233,8 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBC530601EB1C8EC003DFB6B /* LaunchScreen.storyboard in Resources */,
+				DB1CCDDB1EB221A600E253CA /* html in Resources */,
 				DBC5305D1EB1C8EC003DFB6B /* Assets.xcassets in Resources */,
 				DBC5305B1EB1C8EC003DFB6B /* Main.storyboard in Resources */,
+				DB1CCDDD1EB4B3A400E253CA /* youtube_sample.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +513,7 @@
 				DBC5307C1EB1C8ED003DFB6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBC5307D1EB1C8ED003DFB6B /* Build configuration list for PBXNativeTarget "youtube_iframe_sampleTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				DBC5307F1EB1C8ED003DFB6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBC530801EB1C8ED003DFB6B /* Build configuration list for PBXNativeTarget "youtube_iframe_sampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				DBC530821EB1C8ED003DFB6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
