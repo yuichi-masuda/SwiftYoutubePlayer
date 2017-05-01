@@ -199,6 +199,7 @@
 				TargetAttributes = {
 					DBC530511EB1C8EC003DFB6B = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VM85833RQX;
 						ProvisioningStyle = Automatic;
 					};
 					DBC530651EB1C8ED003DFB6B = {
@@ -420,7 +421,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VM85833RQX;
 				INFOPLIST_FILE = youtube_iframe_sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "masuda.youtube-iframe-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,7 +435,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VM85833RQX;
 				INFOPLIST_FILE = youtube_iframe_sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "masuda.youtube-iframe-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";

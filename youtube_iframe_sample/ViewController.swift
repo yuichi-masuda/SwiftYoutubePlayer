@@ -14,6 +14,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
         self.main_webview.reload()
     }
     
+    @IBOutlet weak var back_before_play: UIButton!
     @IBOutlet weak var play_and_stop_button: UIButton!
     @IBOutlet weak var video_speed_button: UIButton!
     @IBAction func play_and_stop_button(_ sender: Any) {
@@ -63,6 +64,10 @@ class ViewController: UIViewController, UIWebViewDelegate {
         main_webview.scrollView.bounces = false
         main_webview.allowsInlineMediaPlayback = true
         main_webview.loadRequest(req)
+        back_before_play.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
+        back_before_play.titleLabel!.numberOfLines = 2
+        back_before_play.titleLabel!.textAlignment = NSTextAlignment.center
+        back_before_play.setTitle("前の入力\nに戻る", for: .normal)
         
     }
 
